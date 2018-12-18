@@ -1,1 +1,1 @@
-Denne mappe skal indeholde din SQL-exports.
+Kan ikke få databasen til at fungere.
