@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class MediaManager {
 
+
+    // en metode der printer alle filer til konsollen folderen i pathname
     public static void logMediaFolder(String folderNavn) {
         File folder = new File("C:\\Users\\Mads\\Desktop\\Eksamen programmering\\1sem_exam_2018_B-master\\media");
         File[] listOfFiles = folder.listFiles();
