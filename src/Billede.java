@@ -7,7 +7,7 @@ public class Billede extends Media {
 
     @Override
     public void logToConsol(){
-        System.out.println(this.getName() + this.fileType);
+        System.out.println(this.getName() + "." + this.fileType);
 
     }
 }
