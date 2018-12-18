@@ -60,4 +60,9 @@ public class Media {
                 ", fileName='" + fileName + '\'' +
                 '}';
     }
+
+    public void logToConsol(){
+        System.out.println(this.name + "Media");
+
+    }
 }
