@@ -2,19 +2,23 @@ import java.io.File;
 import java.time.Instant;
 import java.util.Date;
 
+// En privat klasse kaldt Media
 public class Media {
 
+    // her oprettes forskellige variabler af forskellige typer (int, String, Date, String)
     private int assetId;
     private String name;
     private Date created = new Date();
     private String fileName;
 
 
+    // en public Constructer kaldt mMedia
     public Media() {
         assetId = MediaID.generate();
         created = Date.from(Instant.now());
     }
 
+    // Getters og Setters til alle klassens variabler
     public int getAssetId() {
         return assetId;
     }
