@@ -65,5 +65,5 @@ public class Media {
         System.out.println(this.name + "Media");
 
     }
-  }
+}
 
