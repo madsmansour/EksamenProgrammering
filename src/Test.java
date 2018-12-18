@@ -7,6 +7,7 @@ public class Test {
     public static void test() {
 
         System.out.println("TV2 Media Manager");
+        System.out.println(Main.SOFTWARE_VERSION);
 
         Media m1 = new Media();
         m1.setName("Julemanden");
