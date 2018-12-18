@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MediaManager {
 
-    // Her kommer din kode
+    public void logMediaFolder(String folderNavn) {
 
+    }
 }

@@ -12,6 +12,7 @@ public class Main {
         // kalder metoden test fra klassen Test
         Test.test();
 
+
     }
 }
 
